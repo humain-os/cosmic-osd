@@ -70,23 +70,23 @@ git = "https://github.com/pop-os/cosmic-settings"
 # Every crate from this source must be listed. Patching only some leaves the
 # rest on pop-os and links two incompatible copies of `iced_core`.
 [patch.'https://github.com/pop-os/libcosmic']
-libcosmic = { git = "https://github.com/playtron-os/libcosmic.git", rev = "48edb7252e1b380de65e96e68e695fa244e6ab55" }
-cosmic-config = { git = "https://github.com/playtron-os/libcosmic.git", rev = "48edb7252e1b380de65e96e68e695fa244e6ab55" }
-cosmic-config-derive = { git = "https://github.com/playtron-os/libcosmic.git", rev = "48edb7252e1b380de65e96e68e695fa244e6ab55" }
-cosmic-theme = { git = "https://github.com/playtron-os/libcosmic.git", rev = "48edb7252e1b380de65e96e68e695fa244e6ab55" }
-iced = { git = "https://github.com/playtron-os/libcosmic.git", rev = "48edb7252e1b380de65e96e68e695fa244e6ab55" }
-iced_accessibility = { git = "https://github.com/playtron-os/libcosmic.git", rev = "48edb7252e1b380de65e96e68e695fa244e6ab55" }
-iced_core = { git = "https://github.com/playtron-os/libcosmic.git", rev = "48edb7252e1b380de65e96e68e695fa244e6ab55" }
-iced_debug = { git = "https://github.com/playtron-os/libcosmic.git", rev = "48edb7252e1b380de65e96e68e695fa244e6ab55" }
-iced_futures = { git = "https://github.com/playtron-os/libcosmic.git", rev = "48edb7252e1b380de65e96e68e695fa244e6ab55" }
-iced_graphics = { git = "https://github.com/playtron-os/libcosmic.git", rev = "48edb7252e1b380de65e96e68e695fa244e6ab55" }
-iced_program = { git = "https://github.com/playtron-os/libcosmic.git", rev = "48edb7252e1b380de65e96e68e695fa244e6ab55" }
-iced_renderer = { git = "https://github.com/playtron-os/libcosmic.git", rev = "48edb7252e1b380de65e96e68e695fa244e6ab55" }
-iced_runtime = { git = "https://github.com/playtron-os/libcosmic.git", rev = "48edb7252e1b380de65e96e68e695fa244e6ab55" }
-iced_tiny_skia = { git = "https://github.com/playtron-os/libcosmic.git", rev = "48edb7252e1b380de65e96e68e695fa244e6ab55" }
-iced_wgpu = { git = "https://github.com/playtron-os/libcosmic.git", rev = "48edb7252e1b380de65e96e68e695fa244e6ab55" }
-iced_widget = { git = "https://github.com/playtron-os/libcosmic.git", rev = "48edb7252e1b380de65e96e68e695fa244e6ab55" }
-iced_winit = { git = "https://github.com/playtron-os/libcosmic.git", rev = "48edb7252e1b380de65e96e68e695fa244e6ab55" }
+libcosmic = { git = "https://github.com/playtron-os/libcosmic.git", rev = "c285e69f0af143cf302d7188c831178d3dcfa7f1" }
+cosmic-config = { git = "https://github.com/playtron-os/libcosmic.git", rev = "c285e69f0af143cf302d7188c831178d3dcfa7f1" }
+cosmic-config-derive = { git = "https://github.com/playtron-os/libcosmic.git", rev = "c285e69f0af143cf302d7188c831178d3dcfa7f1" }
+cosmic-theme = { git = "https://github.com/playtron-os/libcosmic.git", rev = "c285e69f0af143cf302d7188c831178d3dcfa7f1" }
+iced = { git = "https://github.com/playtron-os/libcosmic.git", rev = "c285e69f0af143cf302d7188c831178d3dcfa7f1" }
+iced_accessibility = { git = "https://github.com/playtron-os/libcosmic.git", rev = "c285e69f0af143cf302d7188c831178d3dcfa7f1" }
+iced_core = { git = "https://github.com/playtron-os/libcosmic.git", rev = "c285e69f0af143cf302d7188c831178d3dcfa7f1" }
+iced_debug = { git = "https://github.com/playtron-os/libcosmic.git", rev = "c285e69f0af143cf302d7188c831178d3dcfa7f1" }
+iced_futures = { git = "https://github.com/playtron-os/libcosmic.git", rev = "c285e69f0af143cf302d7188c831178d3dcfa7f1" }
+iced_graphics = { git = "https://github.com/playtron-os/libcosmic.git", rev = "c285e69f0af143cf302d7188c831178d3dcfa7f1" }
+iced_program = { git = "https://github.com/playtron-os/libcosmic.git", rev = "c285e69f0af143cf302d7188c831178d3dcfa7f1" }
+iced_renderer = { git = "https://github.com/playtron-os/libcosmic.git", rev = "c285e69f0af143cf302d7188c831178d3dcfa7f1" }
+iced_runtime = { git = "https://github.com/playtron-os/libcosmic.git", rev = "c285e69f0af143cf302d7188c831178d3dcfa7f1" }
+iced_tiny_skia = { git = "https://github.com/playtron-os/libcosmic.git", rev = "c285e69f0af143cf302d7188c831178d3dcfa7f1" }
+iced_wgpu = { git = "https://github.com/playtron-os/libcosmic.git", rev = "c285e69f0af143cf302d7188c831178d3dcfa7f1" }
+iced_widget = { git = "https://github.com/playtron-os/libcosmic.git", rev = "c285e69f0af143cf302d7188c831178d3dcfa7f1" }
+iced_winit = { git = "https://github.com/playtron-os/libcosmic.git", rev = "c285e69f0af143cf302d7188c831178d3dcfa7f1" }
 
 [profile.release]
 lto = "thin"
