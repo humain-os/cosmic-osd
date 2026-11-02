@@ -1,3 +1,10 @@
+## [1.4.3](https://github.com/playtron-os/cosmic-osd/compare/v1.4.2...v1.4.3) (2026-11-02)
+
+
+### Bug Fixes
+
+* **deps:** tint a named icon only when its file is symbolic ([d2115df](https://github.com/playtron-os/cosmic-osd/commit/d2115df9919326185b38e29485c713d47c8eeef1))
+
 ## [1.4.2](https://github.com/playtron-os/cosmic-osd/compare/v1.4.1...v1.4.2) (2026-10-21)
 
 
